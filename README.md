@@ -4,36 +4,45 @@
 
 1. Clone the code from repo
 
-'''bash
+```bash
 git clone https://github.com/<your user>/surfalyticsstarter.git
-'''
+```
 
 2. Check the status of git repo
-'''bash
+```bash
 git status
-'''
+```
 
 3. Create new branch
-'''bash
+```bash
 git checkout -b modify-files
-'''
+```
 
 4. Download objects and refs from another repository
-'''bash
+```bash
 git fetch
-'''
+```
 
 5. Fetch from and integrate with another repository or a local branch
-'''bash
+```bash
 git pull
-'''
+```
 
 6. Check list of branches
-'''bash
+```bash
 git branch -a
-'''
+```
 
 7. Checkout main
-'''bash
+```bash
 git checkout main
-'''
+```
+
+8. Index new and modified files
+```bash
+git add .
+```
+
+9.
+```bash
+git commit -m 'your message'
