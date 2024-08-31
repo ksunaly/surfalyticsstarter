@@ -43,6 +43,12 @@ git checkout main
 git add .
 ```
 
-9.
+9. Commit new changes
 ```bash
 git commit -m 'your message'
+```
+
+10. Push changed
+```bash
+git push
+```
